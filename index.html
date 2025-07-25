@@ -1,23 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- link to the CSS file -->
+
+    <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="content_left">
+        <div class="header_left">
+          <h2>Mortgage Calculator</h2>
+          <button>Clear All</button>
+        </div>
+
+        <section class="form_container">
+          <form action="#">
+
+          <section class="input_container">
+            <label for="#">Mortage amount
+          </label>
+          <div class="input_custom">
+            <section class="input_left">
+              <p>£</p>
+            </section>
+            <input type="number">
+          </div>
+          <p class="p_error">error error</p>
+          </section> 
+          
+          <!-- Term&* &Rate -->
+           <div class="row">
+            <section class="input_container">
+            <label for="#">Mortage Term
+          </label>
+          <div class="input_custom">
+            <input type="number">
+            <section class="input_right">
+              <p>£</p>
+            </section>
+            
+          </div>
+          <p class="p_error">error error</p>
+          </section> 
+
+          <section class="input_container">
+            <label for="#">Interest Rate
+          </label>
+          <div class="input_custom">
+            <input type="number">
+            <section class="input_right">
+              <p>£</p>
+            </section>
+            
+          </div>
+          <p class="p_error">error error</p>
+          </section>  
+
+           </div>
+
+           <!-- radio typ -->
+            <label for="type">Mortage Type
+          </label>
+          <div class="radio_container">
+            <section class="input_container_radio">
+          <div class="input_custom_radio">
+            <section class="input_left-radio">
+              <input type="radio" name="type" id="type" class="radio" />
+            </section>
+            <p class="opt_libelle">Repayment</p>
+          </div>
+          <p class="p_error">error error</p>
+          </section>
+          
+           <section class="input_container_radio">
+          <div class="input_custom_radio">
+            <section class="input_left-radio">
+              <input type="radio" name="type" id="type" class="radio" />
+            </section>
+            <p class="opt_libelle">Interest Only</p>
+          </div>
+          <p class="p_error">error error</p>
+          </section> 
+          </div>
+
+          <button class="button_submit">
+            <img src="./assets//images/icon-calculator.svg" alt="">
+            <span>Calculate Repayment</span>
+          </button>
+
+          </form>
+
+
+        </section>
+
+
+      </section>
+      <section class="content_right"></section>
+    </div>
+
+    <!-- Mortgage Calculator
   
-  <title>Frontend Mentor | Mortgage repayment calculator</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Mortgage Calculator
-  Clear All
 
   Mortgage Amount
 
@@ -31,16 +135,14 @@
 
   Calculate Repayments
 
-  <!-- Empty results start -->
+
 
   Results shown here
 
   Complete the form and click “calculate repayments” to see what 
   your monthly repayments would be.
 
-  <!-- Empty results end -->
-
-  <!-- Completed results start -->
+  
 
   Your results
 
@@ -51,11 +153,10 @@
 
   Total you'll repay over the term
 
-  <!-- Completed results end -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+  </body>
 </html>
